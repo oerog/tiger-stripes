@@ -1,0 +1,105 @@
+.list-container #header-list-area {
+    margin-top: -20px;
+    height: 8px;
+    content: " ";
+}
+.list-controls .navigation-container {
+    margin: 5px 0 0;
+}
+.alert.alert-info.clickable {
+    margin-bottom: 10px;
+}
+.category-box {display:none!important}
+/********** Tiger Stripes **********************************/
+.wrap {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.boxed .contents {
+    padding: 10px 10px 0 20px;
+}
+#topic-title {
+    z-index: 2;
+    margin: 0 0 0 0 !important;
+    padding: 15px 20px !important;
+}
+.topic-meta-data {margin-right: 20px!important}
+.topic-map section {
+    padding: 0 10px;
+}
+/********************************************/
+
+/********* fix category pages ****************/
+.container.list-container #main-outlet.wrap {
+    padding: 0 8px!important;
+}
+
+.topic-list-item td {
+    padding-left: 8px!important;
+    padding-right: 8px !important;
+}
+.navigation-container {
+    margin-left: 8px!important;
+    margin-right: 8px !important;
+}
+/********************************************/
+.topic-list-item td:first-child {
+   border-bottom: 1.5px solid #ccc;
+   border-top: 1.5px solid #ccc;
+   padding: 15px 0 10px;
+}
+.topic-list .topic-list-item-separator {
+    background-color: #ff2200;
+}
+tr[data-category-id="5"], .category[data-category-id="5"] {
+	border-left:solid 14px #2572e4!important;
+	border-bottom: 2px solid  #2572e4 !important;
+	border-top: none !important;
+}
+tr[data-category-id="8"], .category[data-category-id="8"] {
+	border-left:solid 14px #6d5bd1 !important;
+	border-bottom: 2px solid  #6d5bd1 !important;
+	border-top: none !important;
+}
+tr[data-category-id="15"], .category[data-category-id="15"] {
+	border-left:solid 14px #35AD6A !important;
+	border-bottom: 2px solid  #35AD6A!important;
+	border-top: none !important;
+}
+tr[data-category-id="4"], .category[data-category-id="4"]  {
+	border-left:solid 14px #ff7114 !important;
+	border-bottom: 2px solid #ff7114!important;
+	border-top: none !important;
+}
+tr[data-category-id="3"], .category[data-category-id="3"] {
+	border-left:solid 14px #2572e4 !important;
+	border-bottom: 2px solid #2572e4!important;
+	border-top: none !important;
+}
+tr[data-category-id="19"], .category[data-category-id="19"] {
+	border-left:solid 14px #f00 !important;
+	border-bottom: 2px solid #f00!important;
+	border-top: none !important;
+}
+
+#list-area {
+    border-bottom:none!important;
+    margin-bottom:0px!important;
+}
+.regular {
+    padding: 0 0px;
+    border-radius: 0 0 0 0;
+}
+.topic-post.regular {
+    border-top: none !important;
+    border-radius: none!important;
+}.topic-status-info {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.category-list th    {
+    padding-left: 0px!important;
+}
+.category-list thead {
+    border-bottom:200px solid red!important;    
+}
